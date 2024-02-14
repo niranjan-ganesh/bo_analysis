@@ -6,8 +6,7 @@ import csv
 import numpy as np
 
 # List of API keys
-API_KEYS = ['AIzaSyC3M9Y4QjqAU3-xb9oNXFBdFEsTsL0je68', 'AIzaSyBFPXToLku3Lbk_xpc2qUtqrHxKVwU2tW4','AIzaSyBrWNrZg6jxQU1TO0jEZ3ujuYY6zroSkgw','AIzaSyAJ9LAVIehBs0Hlbf79gm_OMHADGINIH0w','AIzaSyDd-LHcZ4WpGsb6qOM827cZnuBJA4syEuQ','AIzaSyBSUxrKe0JNdYbo2kr8epjiIEPNxcetpt8','AIzaSyC-UKhOfeNgzw3RXkHKAUcGzsoCIWm97xI','AIzaSyAQv4nh7OoaNcBXu-wBwuzonpbgqUpaUjM','AIzaSyDv30cGThqF4vW8v5UcFs0RuFKDwBdWW0M','AIzaSyBf4P5_wtcbQtt755E9oVhCTn4-Tdk3Hm0','AIzaSyDo58rvwLHU5hKGjWiXxwrJpz41DAOx5DE']
-# API_KEYS = ['AIzaSyDfHaSNlmAeRySuzASf9gjyYjTeMswt3mg']
+API_KEYS = []
 # Create YouTube API client
 def create_youtube_client(api_key):
     return build('youtube', 'v3', developerKey=api_key)
